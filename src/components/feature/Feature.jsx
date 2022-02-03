@@ -10,7 +10,7 @@ const Feature = ({ title, text }) => (
     <div className="gpt3__features-container_feature-text">
       <p>{text}</p>
     </div>
-  </div>;
+  </div>
 );
 
 export default Feature;
