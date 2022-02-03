@@ -1,7 +1,7 @@
 import React from "react";
 import "./feature.css";
 
-const Feature = ({ title, text }) => (
+const Feature = ({ title, text }) => {
   <div className="gpt3__features-container__feature">
     <div className="gpt3__features-container__feature-title">
       <div />
@@ -10,7 +10,7 @@ const Feature = ({ title, text }) => (
     <div className="gpt3__features-container_feature-text">
       <p>{text}</p>
     </div>
-  </div>
-);
+  </div>;
+};
 
 export default Feature;
