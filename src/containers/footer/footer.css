@@ -26,6 +26,8 @@
   justify-content: center;
   align-items: center;
 
+  color: #fff;
+
   padding: 1rem;
   border: 1px solid #fff;
   text-align: center;
@@ -34,11 +36,17 @@
   cursor: pointer;
 }
 
+.gpt3__footer-btn:hover {
+  background: #fff;
+  color: #031a34;
+  transition: 0.5s;
+}
+
 .gpt3__footer-btn p {
   font-size: 18px;
   font-family: var(--font-family);
   line-height: 21px;
-  color: #fff;
+  /* color: #fff; */
   word-spacing: 2px;
 }
 

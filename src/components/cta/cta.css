@@ -41,7 +41,7 @@
 }
 
 .gpt3__cta-btn button {
-  background: #000;
+  /* background: #000; */
   color: #fff;
   font-family: var(--font-family);
   font-weight: 700;
@@ -49,14 +49,17 @@
   line-height: 30px;
   padding: 0.5rem 1rem;
   border-radius: 2rem;
+  background: transparent;
+  border: solid 3px #fff;
 
-  border: none;
   outline: none;
   cursor: pointer;
   min-width: 150px;
 }
 .gpt3__cta-btn button:hover {
-  background: rgb(0, 2, 146);
+  background: #fff;
+  color: #000;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 650px) {
